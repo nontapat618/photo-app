@@ -35,6 +35,7 @@ group :development, :test do
   gem 'byebug'
   
   gem 'sqlite3'
+  
 end
 
 group :development do
@@ -46,6 +47,6 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.11'
   gem 'rails_12factor'
 end
